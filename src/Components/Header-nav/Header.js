@@ -18,9 +18,9 @@ function Header() {
   let [open, setopen] = useState(false);
 
   return (
-    <div className="Header mt-2  w-fulls">
-      <div className="Navbar md:flex md:items-center w-full justify-around">
-        <div className="img-nav flex items-center justify-between mx-8">
+    <div className="Header pt-2 w-fulls">
+      <div className="Navbar md:flex md:items-center fixed top-0 bg-white z-[5] w-full justify-around">
+        <div className="img-nav flex items-center justify-between px-8">
           <img
             src="https://www.getonecard.app/images/logo_black.svg"
             className="navbar-img mt-4 w-16 mcursor-pointer"
@@ -39,17 +39,17 @@ function Header() {
                 <IoMenu size="1.5rem" className="md:hidden " />
               )}
             </div>
-            <Button className={` hidden  ${open ? "flex" : "hidden"}`}>
+            <Button className={` hidden  ${open ? "hidden" : "block"}`}>
               Apply Now
             </Button>
           </div>
         </div>
-        <div className="right-ul  md:flex md:items-center">
+        <div className="right-ul md:py-4 md:flex md:items-center">
           <ul
-            className={`u-list font-[500]  md:flex md:items-center md:pb-0  absolute md:static bg-white 
+            className={`u-list font-[450]  md:flex md:items-center md:pb-0  absolute md:static bg-white 
         md:z-auto z-[1] w-full md:pl0 text-center md:left-0 pb-12 gap-x-9 sm:gap-x-4 overflow-hidden ${
           open
-            ? "top-20"
+            ? "top-15"
             : "top-[-400px]  md:opacity-100 opacity-0 font-extrabold"
         } `}
           >
