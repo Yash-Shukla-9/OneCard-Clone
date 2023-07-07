@@ -9,7 +9,7 @@ function Section11() {
           We are backed by marquee investors who share our vision, passion, and
           commitment to <br /> first principles.
         </span>
-        <div className="flex  gap-6 flex-wrap ">
+        <div className="flex items-center justify-center gap-6 flex-wrap ">
           <img
             src="https://www.getonecard.app/images/team/matrix-logo.svg"
             className=" w-[180px]  md:w-[280px]"
