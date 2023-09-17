@@ -2,6 +2,8 @@ import React from "react";
 import Card from "../Common/Card";
 
 function Section9() {
+  console.log("re- render section 9");
+
   return (
     <div className="Sec9 py-[50px]">
       <div className="Blog text-center my-4 text-[3.5rem] font-[500]">

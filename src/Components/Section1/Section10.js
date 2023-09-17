@@ -1,6 +1,8 @@
 import React from "react";
 
 function Section10() {
+  console.log("re- render section 10");
+
   return (
     <div className="Sec2 w-full bg-[#F2F2F2] py-[50px]">
       <div className=" flex flex-col justify-center items-center ">

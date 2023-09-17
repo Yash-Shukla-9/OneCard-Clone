@@ -15,6 +15,8 @@ their spending. .
 const text = "text-left";
 
 function Section8() {
+  console.log("re- render section 8");
+
   return (
     <div className="Sec8 flex flex-col items-center py-[50px] px-8 md:flex-row justify-evenly bg-[#F2F2F2] ">
       <SecCompo1 svg1={svg1} text={text} head={head} sen={sentence} />

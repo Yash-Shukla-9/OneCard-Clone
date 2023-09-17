@@ -14,6 +14,8 @@ const justify = "justify-end";
 const align = "items-end";
 
 function Section7() {
+  console.log("re- render section 7");
+
   return (
     <div className="Sec7 flex flex-col items-center  py-[20px] mx-8 md:flex-row justify-evenly">
       <Seccompo2 video={video} />

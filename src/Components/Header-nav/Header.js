@@ -1,10 +1,12 @@
-import React, { useState } from "react";
+import React, { useState, memo } from "react";
 
 import Button from "../Common/Button";
 import { IoMenu } from "react-icons/io5";
 import { RxCross2 } from "react-icons/rx";
 
 function Header() {
+  console.log("re- render Header");
+
   const Link = [
     { name: "Home" },
     { name: "About Us" },
@@ -68,4 +70,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default memo(Header);
